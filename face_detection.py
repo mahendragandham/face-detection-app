@@ -5,7 +5,7 @@ import cv2
 from random import randrange
 
 #importing haarcascade.xml file from the following link "https://github.com/opencv/opencv/tree/master/data/". There you can find the haarcascade file. Download the file and keep in your project directory.
-# haarcascade.xml file has all the trained data (Supervised Learning) so that, it can helps us with detecting faces according to the frames
+# haar algorithm has all the trained data (Supervised Learning) so that, it can helps us with detecting faces according to the frames
 trained_face = cv2.CascadeClassifier('haarcascade.xml')
 
 # img = cv2.imread('download.jpeg') 
