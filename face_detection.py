@@ -9,21 +9,21 @@ from random import randrange
 trained_face = cv2.CascadeClassifier('haarcascade.xml')
 
 # img = cv2.imread('download.jpeg') 
-# you can uncomment the above line to see how this AI detects faces in image ('download.jpeg')
+# you can uncomment the above line to see how this AI detects faces in image ('download.jpeg').
 
 # VideoCapture(0) is used to open your webcam. if you want to detect faces in video, then change the value from 0 to the name of the video you want to play
 # But make sure that the video also kept in the same directory.
 webcam = cv2.VideoCapture(0)
 
-# Looping the webcam screen
+# Looping the webcam screen.
 while True:
-    # taking the input from the webcam into frames
+    # taking the input from the webcam into frames.
     successful_frame_read, frame = webcam.read()
     
     # converting the color frames into grayscale frames so that the AI can detect the faces very easily.
     grayscaled_img = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     
-    # detecting the multiple faces at a time
+    # detecting the multiple faces at a time.
     face_coordinates = trained_face.detectMultiScale(grayscaled_img)
     for (x, y, w, h) in face_coordinates:
         
@@ -38,7 +38,7 @@ while True:
     if key == 81 or key == 113:
         break
 
-# exits from the webcam if you press 'Q' in your keyboard
+# exits from the webcam if you press 'Q' in your keyboard.
 webcam.release()
 
 # prints "code executed successfully" after you pressing q in your keyboard which means the program is terminated.
