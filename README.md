@@ -1,5 +1,5 @@
 <h1>Face detection App</h1>
-<p>This is a face detetcion app which was completely build using haar algorithm and openCV library in python.</p>
+<p>This is a face detetcion app which is completely build using Haar algorithm (Haarcascade) and openCV library in python.</p>
 <h2>Lets see the steps and procedure to this app (How it works?):</h2>
 <ul>
   <li>Opening webcam or taking an image/video to the python file</li>
