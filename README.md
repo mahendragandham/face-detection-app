@@ -8,5 +8,5 @@
   <li>Grab the coordinates of the face, I used "for loop" to grab more than one face at a time.</li>
   <li>Release/Exit the code when the user type "Q" as the output</li>
 </ul>
-<p>This is the brief procedure of This face-detection-app. If you have any queries, then contact me through <a href="https://twitter.com/mahendra_4919">Twitter</a></p>
+<p>This is the brief procedure of This face-detection-app. If you have any queries, then contact me through <a href="https://twitter.com/mahendra_4919">twitter</a></p>
 
